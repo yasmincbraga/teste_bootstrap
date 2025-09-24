@@ -3,9 +3,24 @@
 }
 
 .fundomenu{
-    background-color: rgb(188, 154, 241);
+    background-color: #8B008B;
 }
 
 .minhafonte{
     font-size: 1.5rem;
 }
+
+.centralizar{
+    text-align: center;
+    margin-top: 1.5%;
+    margin-right: 1%;
+}
+
+section .card {
+  display: flex;
+  flex-wrap: wrap;   /* permite quebrar linha quando não couber */
+  gap: 20px;         /* espaço entre os cards */
+  justify-content: center; /* centraliza no meio da tela */
+}
+
+
